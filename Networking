@@ -1,0 +1,8 @@
+1.Explain the complete flow of the request from client to server (OSI model)
+2.Explain the difference between forward proxy and reverse proxy.
+3.User reports slowness in the app, how would you approach this?
+4.clurl works with IP, files with domain, why?
+5.website returns 502 HTTP status code. What can be the issue?
+6.what is the difference between 0.0.0.0 and 127.0.0.1?
+7.what is the difference between public and private subnets?
+8.you accidentally created a private subnet instead of public, how will you fix it?
