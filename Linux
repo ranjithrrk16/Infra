@@ -1,0 +1,13 @@
+1.Can you restore lost PEM file ? If not how can you access the instance?
+2./var is almost 90 percent full, what will be your next steps?
+3.Linux server is slow due to High CPU utilization, How will you fix it?
+4.Application deployed on Nginx returns connection refused, How will you fix it?
+5.SSG to an instance stopped working? How will you troubleshoot the issue?
+6.Find and list the log files older than 7 days in /var/log folder, find and remove the log files older than 30 days in a folder.
+7.Cronjob+shell script to perform advanced log rotation(Scenario Provided)
+8.Bulk creation of Linux users using CSV file.
+9.Service health monitor script in bash
+1. Find and delete files over 100MB
+2. Get the list of users who logged in today(scenario some packages deleted)
+3. Website doesn’t load, how will you investigate?
+4. Using sed command, how to remove first and last line of the file?
