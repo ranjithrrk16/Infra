@@ -1,0 +1,42 @@
+How do you roll back a failed blue-green deployment?
+Hint: Discuss how traffic can be switched back to the stable version using a load balancer.
+How do you set up a Load Balancer in AWS?
+Hint: Explain different types of load balancers (ALB, NLB, CLB) and their configurations.
+How do you scale up applications dynamically?
+Hint: Talk about horizontal vs. vertical scaling and AWS Auto Scaling Groups (ASG).
+What are the different logging strategies in Linux?
+Hint: Discuss syslog, journalctl, log rotation, and central log aggregation tools.
+Explain a rollback strategy in Kubernetes.
+Hint: Talk about kubectl rollout undo and Helm rollback.
+How does your day look as a DevOps Engineer?
+Hint: Mention daily tasks like CI/CD monitoring, automation improvements, and infrastructure scaling.
+How would you design a multi-region deployment strategy?
+Explain Canary Deployment and how to monitor it effectively.
+How do you optimize container images for production use?
+What are the key considerations while implementing Infrastructure as Code (IaC)?
+Scenario-Based Questions:
+You deployed an application, but some services are failing. How do you debug it?
+A pipeline suddenly starts failing. How would you troubleshoot it?
+How do you handle secret management in a CI/CD pipeline?
+Your Kubernetes cluster is facing high CPU utilization. What steps would you take?
+An S3 bucket storing logs is getting expensive. How would you optimize cost?
+Your application is experiencing intermittent network failures. How would you diagnose it?
+Jenkins Questions:
+What is the difference between scripted and declarative Jenkins pipelines?
+How do you implement a multibranch pipeline in Jenkins?
+How do you set up a Jenkins pipeline for a microservices architecture?
+How can you trigger a Jenkins job from another job?
+How do you handle parallel execution in Jenkins pipelines?
+Explain how to secure Jenkins with role-based access control.
+Terraform Code Questions:
+Write a Terraform code snippet to create an S3 bucket.
+Write Terraform code to deploy an EC2 instance with a specific AMI and security group.
+How do you use Terraform to create an IAM role with least privilege access?
+Write Terraform code to provision an RDS instance with encryption enabled.
+How would you use Terraform modules to manage infrastructure at scale?
+What is Terraform state locking and why is it important?
+DSA Questions (Just Hints! 😉)
+Given a string, find the first non-repeating character. Hint: Use HashMap or frequency array.
+Find the subarray with the maximum sum in an integer array. Hint: Kadane’s Algorithm.
+Reverse words in a sentence while keeping their order intact. Hint: Use split and join functions.
+Find the longest common prefix among an array of strings. Hint: Use sorting or Trie data structure.
