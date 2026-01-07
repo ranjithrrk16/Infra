@@ -35,8 +35,4 @@ How do you use Terraform to create an IAM role with least privilege access?
 Write Terraform code to provision an RDS instance with encryption enabled.
 How would you use Terraform modules to manage infrastructure at scale?
 What is Terraform state locking and why is it important?
-DSA Questions (Just Hints! 😉)
-Given a string, find the first non-repeating character. Hint: Use HashMap or frequency array.
-Find the subarray with the maximum sum in an integer array. Hint: Kadane’s Algorithm.
-Reverse words in a sentence while keeping their order intact. Hint: Use split and join functions.
-Find the longest common prefix among an array of strings. Hint: Use sorting or Trie data structure.
+
