@@ -1,8 +1,12 @@
 1.Explain the complete flow of the request from client to server (OSI model)
 2.Explain the difference between forward proxy and reverse proxy.
+A **forward proxy** sits in front of clients and forwards their requests to the internet on their behalf, mainly to control, secure, or anonymize client access. A **reverse proxy** sits in front of servers and handles client requests before passing them to backend servers, mainly for load balancing, security, caching, and hiding server details.
+
 3.User reports slowness in the app, how would you approach this?
 4.clurl works with IP, files with domain, why?
 5.website returns 502 HTTP status code. What can be the issue?
+A **502 Bad Gateway** error means the server acting as a gateway or proxy received an invalid response from an upstream server. Common issues include the backend service being down or crashing, network or DNS connectivity problems between proxy and backend, misconfigured load balancer or reverse proxy, timeouts, or resource exhaustion on the backend server.
+
 6.what is the difference between 0.0.0.0 and 127.0.0.1?
 7.what is the difference between public and private subnets?
 8.you accidentally created a private subnet instead of public, how will you fix it?
