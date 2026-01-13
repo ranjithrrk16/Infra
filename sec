@@ -14,10 +14,17 @@ How would you design a multi-region deployment strategy?
 Explain Canary Deployment and how to monitor it effectively.
 How do you optimize container images for production use?
 What are the key considerations while implementing Infrastructure as Code (IaC)?
+
 Scenario-Based Questions:
-You deployed an application, but some services are failing. How do you debug it?
-A pipeline suddenly starts failing. How would you troubleshoot it?
-How do you handle secret management in a CI/CD pipeline?
+Q.You deployed an application, but some services are failing. How do you debug it?
+A.I would debug it systematically: first check monitoring and alerts to identify which services are failing and their error patterns, then review application and infrastructure logs for those services. Next, I’d verify recent changes (deployments, config, environment variables), check service health, dependencies, and network connectivity, and reproduce the issue if possible. Finally, I’d roll back or hotfix if needed, apply a permanent fix, and add monitoring to prevent recurrence.
+
+Q.A pipeline suddenly starts failing. How would you troubleshoot it?
+A.I would check the pipeline logs to see where and why it’s failing, verify any recent code, configuration, or dependency changes, confirm credentials and environment variables are valid, ensure the build agents and external services are available, and then fix or roll back the change before rerunning the pipeline.
+
+Q.How do you handle secret management in a CI/CD pipeline?
+A. I handle secrets by never hardcoding them in code or pipelines, storing them in secure secret managers (like Vault, cloud secret managers, or CI/CD built-in secrets), injecting them at runtime via environment variables or secure files, restricting access with least-privilege permissions, and rotating and auditing secrets regularly.
+
 Your Kubernetes cluster is facing high CPU utilization. What steps would you take?
 An S3 bucket storing logs is getting expensive. How would you optimize cost?
 Your application is experiencing intermittent network failures. How would you diagnose it?
